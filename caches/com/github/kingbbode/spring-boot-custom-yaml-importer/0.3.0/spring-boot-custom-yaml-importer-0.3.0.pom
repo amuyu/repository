@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!-- do_not_remove: published-with-gradle-metadata -->
-<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.kingbbode</groupId>
   <artifactId>spring-boot-custom-yaml-importer</artifactId>
   <version>0.3.0</version>
-  <name>kingbbode/spring-boot-custom-yaml-importer</name>
-  <description>spring boot support for automatically loading custom yaml file.</description>
-  <url>https://github.com/kingbbode/spring-boot-custom-yaml-importer</url>
-  <inceptionYear>2019</inceptionYear>
-  <developers>
-    <developer>
-      <id>kingbbode</id>
-      <name>YongGeun Kwon</name>
-      <email>kingbbode@gmail.com</email>
-    </developer>
-  </developers>
-  <scm>
-    <connection>scm:git://github.com/kingbbode/spring-boot-custom-yaml-importer.git</connection>
-    <developerConnection>scm:git://github.com/kingbbode/spring-boot-custom-yaml-importer.git</developerConnection>
-    <url>git://github.com/kingbbode/spring-boot-custom-yaml-importer.git</url>
-  </scm>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-dependencies</artifactId>
-        <version>2.6.6</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-  <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <version>2.6.6</version>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
+  <description>POM was created from install:install-file</description>
 </project>
