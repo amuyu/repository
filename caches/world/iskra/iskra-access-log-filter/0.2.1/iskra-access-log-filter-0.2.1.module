@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "world.iskra",
+    "module": "iskra-access-log-filter",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iskra-access-log-filter-0.2.1-plain.jar",
+          "url": "iskra-access-log-filter-0.2.1-plain.jar",
+          "size": 22041,
+          "sha512": "808b76859ec32892a4d444073b18691686b04fba7b703ca7f971438189789b33ebb5101a30f487d27a8e84265ac8466d7d898be46a8f21d424ccc47169e1c699",
+          "sha256": "a63e355a5aba19e9d0f3fedaca12f11400645e1a7aeb57af5073ef13a168d406",
+          "sha1": "8b9cef384e3c30b5843a6051f6ede6b0b9c5b06d",
+          "md5": "e0a567dcf9cab8cff70d30a5422579c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.kingbbode",
+          "module": "spring-boot-custom-yaml-importer",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.6"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8"
+        },
+        {
+          "group": "com.ninja-squad",
+          "module": "springmockk",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-core",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-domain",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-data-common",
+          "version": {
+            "requires": "0.2.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        }
+      ],
+      "files": [
+        {
+          "name": "iskra-access-log-filter-0.2.1-plain.jar",
+          "url": "iskra-access-log-filter-0.2.1-plain.jar",
+          "size": 22041,
+          "sha512": "808b76859ec32892a4d444073b18691686b04fba7b703ca7f971438189789b33ebb5101a30f487d27a8e84265ac8466d7d898be46a8f21d424ccc47169e1c699",
+          "sha256": "a63e355a5aba19e9d0f3fedaca12f11400645e1a7aeb57af5073ef13a168d406",
+          "sha1": "8b9cef384e3c30b5843a6051f6ede6b0b9c5b06d",
+          "md5": "e0a567dcf9cab8cff70d30a5422579c1"
+        }
+      ]
+    }
+  ]
+}

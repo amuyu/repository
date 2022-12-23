@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "world.iskra",
+    "module": "iskra-auth-common",
+    "version": "20221121163547",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iskra-auth-common-20221121163547-plain.jar",
+          "url": "iskra-auth-common-20221121163547-plain.jar",
+          "size": 77768,
+          "sha512": "225306e69d707ad3b63186ab61744d2dbf62d37ce8de52f10d8dc3d78ce8eb201877336f57ad8d12e381100d7e6bc9721ca1241fe5ed82b750b4346e58ec081d",
+          "sha256": "f784a0e33ec80b534f586fdbf235c8a336105f528f3ec33c388ffc75bdbb0d1e",
+          "sha1": "6ac8fbb8cb04535e71b5f8c6be8f81817e84b7ef",
+          "md5": "879264a9375bf267d086f47b93cb3bbb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.kingbbode",
+          "module": "spring-boot-custom-yaml-importer",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.6"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8"
+        },
+        {
+          "group": "com.ninja-squad",
+          "module": "springmockk",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-core",
+          "version": {
+            "requires": "20221121163547"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-domain",
+          "version": {
+            "requires": "20221121163547"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-auth-client",
+          "version": {
+            "requires": "20221121163547"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-redis-common",
+          "version": {
+            "requires": "20221121163547"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-redis-reactive"
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-jackson",
+          "version": {
+            "requires": "0.11.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iskra-auth-common-20221121163547-plain.jar",
+          "url": "iskra-auth-common-20221121163547-plain.jar",
+          "size": 77768,
+          "sha512": "225306e69d707ad3b63186ab61744d2dbf62d37ce8de52f10d8dc3d78ce8eb201877336f57ad8d12e381100d7e6bc9721ca1241fe5ed82b750b4346e58ec081d",
+          "sha256": "f784a0e33ec80b534f586fdbf235c8a336105f528f3ec33c388ffc75bdbb0d1e",
+          "sha1": "6ac8fbb8cb04535e71b5f8c6be8f81817e84b7ef",
+          "md5": "879264a9375bf267d086f47b93cb3bbb"
+        }
+      ]
+    }
+  ]
+}

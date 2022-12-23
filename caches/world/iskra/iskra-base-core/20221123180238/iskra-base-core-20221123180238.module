@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "world.iskra",
+    "module": "iskra-base-core",
+    "version": "20221123180238",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iskra-base-core-20221123180238-plain.jar",
+          "url": "iskra-base-core-20221123180238-plain.jar",
+          "size": 56887,
+          "sha512": "0b1c944a89a7134d85dd5e8905bada59cee7bab43b51c8c243c1c08685084ebc12028d8ea90f12352feae7c4d6bb66ffd90ae6ce4eab8002e22444d35659e3e5",
+          "sha256": "4d47149c6e485ad7d503e4bba19db6c3630908147a28556921d3c7f97fbeb13c",
+          "sha1": "911911634d8fefeb43f502089ce0ed6f22e5989b",
+          "md5": "a41a99c78c86e42064aef206e28a48aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.kingbbode",
+          "module": "spring-boot-custom-yaml-importer",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.6"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8"
+        },
+        {
+          "group": "com.ninja-squad",
+          "module": "springmockk",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-domain",
+          "version": {
+            "requires": "20221123180238"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin"
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-api",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-jackson",
+          "version": {
+            "requires": "0.11.2"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "18.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iskra-base-core-20221123180238-plain.jar",
+          "url": "iskra-base-core-20221123180238-plain.jar",
+          "size": 56887,
+          "sha512": "0b1c944a89a7134d85dd5e8905bada59cee7bab43b51c8c243c1c08685084ebc12028d8ea90f12352feae7c4d6bb66ffd90ae6ce4eab8002e22444d35659e3e5",
+          "sha256": "4d47149c6e485ad7d503e4bba19db6c3630908147a28556921d3c7f97fbeb13c",
+          "sha1": "911911634d8fefeb43f502089ce0ed6f22e5989b",
+          "md5": "a41a99c78c86e42064aef206e28a48aa"
+        }
+      ]
+    }
+  ]
+}

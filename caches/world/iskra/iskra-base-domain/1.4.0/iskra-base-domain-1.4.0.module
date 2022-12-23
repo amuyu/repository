@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "world.iskra",
+    "module": "iskra-base-domain",
+    "version": "1.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iskra-base-domain-1.4.0-plain.jar",
+          "url": "iskra-base-domain-1.4.0-plain.jar",
+          "size": 19500,
+          "sha512": "0439f444df1325eacfe182ebc728da18604f3666c236ac80cb65765752de1afe8a6832efafdc93f6ed72e4eacca1e547be4689ea5d303d41cfacc39cd0ef41c2",
+          "sha256": "4837e1c6b71accc28e128b7e998be4bb23b0179688b5cb1cab268c510056cb81",
+          "sha1": "26a4e2630945f61dc5eda8e7f0882e3851b5177a",
+          "md5": "cd8c5f5e623a2e39d36cc2387c4a7e3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.kingbbode",
+          "module": "spring-boot-custom-yaml-importer",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.6"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8"
+        },
+        {
+          "group": "com.ninja-squad",
+          "module": "springmockk",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation"
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.5.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iskra-base-domain-1.4.0-plain.jar",
+          "url": "iskra-base-domain-1.4.0-plain.jar",
+          "size": 19500,
+          "sha512": "0439f444df1325eacfe182ebc728da18604f3666c236ac80cb65765752de1afe8a6832efafdc93f6ed72e4eacca1e547be4689ea5d303d41cfacc39cd0ef41c2",
+          "sha256": "4837e1c6b71accc28e128b7e998be4bb23b0179688b5cb1cab268c510056cb81",
+          "sha1": "26a4e2630945f61dc5eda8e7f0882e3851b5177a",
+          "md5": "cd8c5f5e623a2e39d36cc2387c4a7e3f"
+        }
+      ]
+    }
+  ]
+}

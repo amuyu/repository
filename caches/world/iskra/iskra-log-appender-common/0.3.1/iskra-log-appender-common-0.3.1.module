@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "world.iskra",
+    "module": "iskra-log-appender-common",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iskra-log-appender-common-0.3.1-plain.jar",
+          "url": "iskra-log-appender-common-0.3.1-plain.jar",
+          "size": 14328,
+          "sha512": "ba62e0eb67d68f8b445fdd0596b80e989965fba865d4b1fd871eb0e4d8c69fd3ac093a1552c0a73eb3f03e3ea1aec54bf6312e7cfe0d7f02d7e2e55b02e77a58",
+          "sha256": "210edc03d10baa061ac0f49d8af81ffd832abadddec4437f004a7d9f1a27e0ad",
+          "sha1": "42255669e4f15d3433838cabb9b92c4b0a4bdd61",
+          "md5": "b6643299781e0becdd572ad3cbed16a8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.kingbbode",
+          "module": "spring-boot-custom-yaml-importer",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.6"
+          }
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8"
+        },
+        {
+          "group": "com.ninja-squad",
+          "module": "springmockk",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-core",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "world.iskra",
+          "module": "iskra-base-domain",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "com.lmax",
+          "module": "disruptor",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "org.springframework.kafka",
+          "module": "spring-kafka",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "io.projectreactor.kafka",
+          "module": "reactor-kafka",
+          "version": {
+            "requires": "1.3.11"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310"
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-secretsmanager",
+          "version": {
+            "requires": "1.12.223"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-log4j2"
+        }
+      ],
+      "files": [
+        {
+          "name": "iskra-log-appender-common-0.3.1-plain.jar",
+          "url": "iskra-log-appender-common-0.3.1-plain.jar",
+          "size": 14328,
+          "sha512": "ba62e0eb67d68f8b445fdd0596b80e989965fba865d4b1fd871eb0e4d8c69fd3ac093a1552c0a73eb3f03e3ea1aec54bf6312e7cfe0d7f02d7e2e55b02e77a58",
+          "sha256": "210edc03d10baa061ac0f49d8af81ffd832abadddec4437f004a7d9f1a27e0ad",
+          "sha1": "42255669e4f15d3433838cabb9b92c4b0a4bdd61",
+          "md5": "b6643299781e0becdd572ad3cbed16a8"
+        }
+      ]
+    }
+  ]
+}
